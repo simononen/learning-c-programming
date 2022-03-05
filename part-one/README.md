@@ -30,3 +30,10 @@
 - Arguments to functions
 - The body of a function
 - Function calls
+
+### Hour 4
+
+- char
+- int
+- float
+- double
