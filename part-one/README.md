@@ -1,4 +1,4 @@
-# Hour One
+# Part One
 
 ## Learning outcomes
 
