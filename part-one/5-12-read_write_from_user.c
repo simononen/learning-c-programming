@@ -5,10 +5,10 @@ int main() {
     char chr;
 
     printf("Enter any character: \n");
-    chr = getc( stdin );
+    chr = getchar();
 
     printf("The character you entered is: \n");
-    putc(chr, stdout);
+    putchar(chr);
 
     printf("\n");
     return 0;
