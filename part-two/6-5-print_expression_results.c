@@ -2,15 +2,43 @@
 
 int main() {
 
-    int x = 1, y = 3;
+    int x, y;
 
-    printf("The Results of the expressions: \n");
-    printf("x += y evaluates to %d \n", x += y);
-    printf("x += -y evaluates to %d \n", x += -y);
-    printf("x -= y evaluates to %d \n", x -= y);
-    printf("x -= -y evaluates to %d \n", x -= -y);
-    printf("x *= y evaluates to %d \n", x *= y);
-    printf("x *= -y evaluates to %d \n", x *= -y);
+    x = 1;
+    y = 3;
+
+    x += y;
+    printf("x += y evaluates to %d \n", x);
+
+    x = 1;
+    y = 3;
+
+    x += -y;
+    printf("x += -y evaluates to %d \n", x);
+
+    x = 1;
+    y = 3;
+
+    x -= y;
+    printf("x -= y evaluates to %d \n", x);
+
+    x = 1;
+    y = 3;
+
+    x -= -y;
+    printf("x -= -y evaluates to %d \n", x);
+
+    x = 1;
+    y = 3;
+
+    x *= y;
+    printf("x *= y evaluates to %d \n", x);
+
+    x = 1;
+    y = 3;
+
+    x *= -y;
+    printf("x *= -y evaluates to %d \n", x);
 
     return 0;
 }
