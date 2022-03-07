@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     int x = 1;
 
     printf("x = x++ produces: %d\n", x = x++);
