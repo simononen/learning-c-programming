@@ -10,7 +10,10 @@ int main(void)
     printf("      y = %4d, i.e., 0X%04X\n", y, y);
 
     z = x >> y;
-    printf("x >> y yields: %6d");
+    printf("x >> y yields: %6d, i.e., 0X%04X\n", z, z);
+
+    z = x << y;
+    printf("x << y yields: %6d, i.e., 0X%04X\n", z, z);
 
 
     return 0;
